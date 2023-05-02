@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="AppFranchise_prototipo_2_.Site2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="SiteApp.css" rel="stylesheet" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <title>AppFranchise</title>
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    
+    
+         
+
+    
+<div id="main">
+    <div id="portada">
+        <asp:Label ID="lblBienvenida" runat="server" ForeColor="#660033" style="font-size: xx-large" Text="BIENVENID@,"></asp:Label>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+
+        </asp:ContentPlaceHolder>
+</div>
+        
+        
+    
+    <div id="header">
+         <ul id="navlist">
+         
+            <li><a href="Empleados.aspx">Empleados</a></li>
+              <li><a href="Franquicias.aspx">Franquicias</a></li>
+            <li> <a href="PedidoGerente.aspx">Pedidos</a></li>
+             <li> <a href="Historial.aspx">Historial de pedidos</a></li>
+             <li> <a href="Inicio.aspx">Cerrar sesión</a></li>
+        </ul>
+        </div>
+    
+            
+    
+    </div>
+        <div style="width: 1089px; height: 19px;">
+
+        </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+            </asp:ContentPlaceHolder> </div>
+        <div>
+            <br />
+            
+       
+    <div id="footer">
+        Creado por:  Solís Hernández Elizabeth 
+    
+            </div>
+        <br />
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+    </body>
+</html>

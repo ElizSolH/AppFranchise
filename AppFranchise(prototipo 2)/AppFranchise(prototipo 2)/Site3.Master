@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site3.master.cs" Inherits="AppFranchise_prototipo_2_.Site3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="SiteApp.css" rel="stylesheet" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <title>AppFranchise</title>
+    
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    
+<div id="main">
+    <div id="portada">
+        <asp:Label ID="lblBienvenida" runat="server" ForeColor="#660033" style="font-size: xx-large" Text="BIENVENID@,"></asp:Label>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+
+        </asp:ContentPlaceHolder>
+</div>
+    <div id="header">
+        <h1> </h1>
+         <ul id="navlist">
+             <li> <a href="Inicio.aspx">Cerrar sesión</a></li>
+        </ul>
+        <asp:Label ID="lblTituloAdm" runat="server" style="font-size: x-large" Text="ADMINISTRACIÓN DE PEDIDOS"></asp:Label>
+        </div>
+    </div>
+    <div id="footer">
+        Creado por:  Solís Hernández Elizabeth </div>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+        
+        </asp:ContentPlaceHolder>
+    
+    
+    </form>
+
+    
+    
+</body>
+</html>
+

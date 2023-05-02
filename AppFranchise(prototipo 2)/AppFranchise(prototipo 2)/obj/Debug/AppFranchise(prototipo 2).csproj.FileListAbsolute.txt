@@ -1,0 +1,8 @@
+C:\Users\Elizabeth\Desktop\TICSI401\Proyecto\AppFranchise(prototipo 2)\AppFranchise(prototipo 2)\bin\AppFranchise(prototipo 2).dll.config
+C:\Users\Elizabeth\Desktop\TICSI401\Proyecto\AppFranchise(prototipo 2)\AppFranchise(prototipo 2)\bin\AppFranchise(prototipo 2).dll
+C:\Users\Elizabeth\Desktop\TICSI401\Proyecto\AppFranchise(prototipo 2)\AppFranchise(prototipo 2)\bin\AppFranchise(prototipo 2).pdb
+C:\Users\Elizabeth\Desktop\TICSI401\Proyecto\AppFranchise(prototipo 2)\AppFranchise(prototipo 2)\obj\Debug\AppFranchise(prototipo 2).dll
+C:\Users\Elizabeth\Desktop\TICSI401\Proyecto\AppFranchise(prototipo 2)\AppFranchise(prototipo 2)\obj\Debug\AppFranchise(prototipo 2).pdb
+C:\Users\Elizabeth\Desktop\TICSI401\Proyecto\AppFranchise(prototipo 2)\AppFranchise(prototipo 2)\obj\Debug\AppFranchise(prototipo 2).csprojResolveAssemblyReference.cache
+C:\Users\Elizabeth\Desktop\TICSI401\Proyecto\AppFranchise(prototipo 2)\AppFranchise(prototipo 2)\obj\Debug\RdlCompile.cache
+C:\Users\Elizabeth\Desktop\TICSI401\Proyecto\AppFranchise(prototipo 2)\AppFranchise(prototipo 2)\obj\Debug\RdlCompile.compiled

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSprincipal" targetNamespace="http://tempuri.org/DSprincipal.xsd" xmlns:mstns="http://tempuri.org/DSprincipal.xsd" xmlns="http://tempuri.org/DSprincipal.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="AppFranchise2ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="AppFranchise2ConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.AppFranchise2ConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vista_historialTableAdapter" GeneratorDataComponentClassName="vista_historialTableAdapter" Name="vista_historial" UserDataComponentName="vista_historialTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="AppFranchise2ConnectionString (Web.config)" DbObjectName="AppFranchise2.dbo.vista_historial" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Fecha_pedido, Fecha_movimiento, Tipo_movimiento FROM dbo.vista_historial</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Fecha_pedido" DataSetColumn="Fecha_pedido" />
+              <Mapping SourceColumn="Fecha_movimiento" DataSetColumn="Fecha_movimiento" />
+              <Mapping SourceColumn="Tipo_movimiento" DataSetColumn="Tipo_movimiento" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSprincipal" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSprincipal" msprop:Generator_UserDSName="DSprincipal">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vista_historial" msprop:Generator_TableClassName="vista_historialDataTable" msprop:Generator_TableVarName="tablevista_historial" msprop:Generator_TablePropName="vista_historial" msprop:Generator_RowDeletingName="vista_historialRowDeleting" msprop:Generator_RowChangingName="vista_historialRowChanging" msprop:Generator_RowEvHandlerName="vista_historialRowChangeEventHandler" msprop:Generator_RowDeletedName="vista_historialRowDeleted" msprop:Generator_UserTableName="vista_historial" msprop:Generator_RowChangedName="vista_historialRowChanged" msprop:Generator_RowEvArgName="vista_historialRowChangeEvent" msprop:Generator_RowClassName="vista_historialRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Fecha_pedido" msprop:Generator_ColumnVarNameInTable="columnFecha_pedido" msprop:Generator_ColumnPropNameInRow="Fecha_pedido" msprop:Generator_ColumnPropNameInTable="Fecha_pedidoColumn" msprop:Generator_UserColumnName="Fecha_pedido" type="xs:dateTime" />
+              <xs:element name="Fecha_movimiento" msprop:Generator_ColumnVarNameInTable="columnFecha_movimiento" msprop:Generator_ColumnPropNameInRow="Fecha_movimiento" msprop:Generator_ColumnPropNameInTable="Fecha_movimientoColumn" msprop:Generator_UserColumnName="Fecha_movimiento" type="xs:dateTime" />
+              <xs:element name="Tipo_movimiento" msprop:Generator_ColumnVarNameInTable="columnTipo_movimiento" msprop:Generator_ColumnPropNameInRow="Tipo_movimiento" msprop:Generator_ColumnPropNameInTable="Tipo_movimientoColumn" msprop:Generator_UserColumnName="Tipo_movimiento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

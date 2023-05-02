@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AppFranchise_prototipo_2_.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="SiteApp.css" rel="stylesheet" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <title>AppFranchise</title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #form2 {}
+    </style>
+</head>
+<body>
+ 
+<div id="main">
+    <div id="portada">
+</div>
+    
+    </div>
+    <div id="footer">
+        Creado por:  Solís Hernández Elizabeth </div>
+    <form id="form2" runat="server">
+       
+    
+       
+	
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+       
+
+
+        </asp:ContentPlaceHolder>
+        
+    
+        
+    </form>
+    
+</body>
+</html>
