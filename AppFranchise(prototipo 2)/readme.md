@@ -1,4 +1,4 @@
-# AppFranchise - prótotipo 2 (ver. 2016)
+# AppFranchise - prototipo 2 (ver. 2016)
 > AppFranchise pretende facilitar la administración de las franquicias del negocio Kawaii Shop, desde sus recursos materiales hasta los humanos.
 **Importante: este desarrollo fue realizado durante mi periodo académico.**
 
